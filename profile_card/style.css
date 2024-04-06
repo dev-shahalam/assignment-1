@@ -1,0 +1,93 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.profile-container{
+    width: 380px;
+    height:100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.profile_card{
+    background-color:#ffffff;
+    color: #181717;
+    padding: 45px;
+    border-radius:15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+
+.profile_card img{
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.profile_card .bio{
+    margin-bottom: 20px;
+}
+
+.profile_card .bio h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(8, 110, 243);
+}
+
+ #designation{
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    color: #6d6161;
+}
+#description{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #6d6161;
+}
+
+.contact-info{
+    text-align: center;
+    color: #6d6161;
+    padding-bottom: 10px;
+}
+
+.contact-info ul li{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6d6161;
+    font-style:normal;
+}
+
+.social-info ul li{
+    list-style: none;
+    display: inline;
+    font-size: 22px;
+    padding:0px 5px;
+    line-height: 33px;
+}
+.social-info ul li a{
+    color: rgb(8, 110, 243);
+}
+
+/* end */

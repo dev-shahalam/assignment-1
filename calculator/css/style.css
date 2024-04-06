@@ -1,0 +1,11 @@
+.calculator{
+    height: 100vh;
+    align-content: center;
+}
+
+#result{
+    display: none;
+}
+#warning{
+    display: none;
+}
