@@ -13,15 +13,16 @@
 
 
 .profile-container{
-    width: 380px;
+    width: 360px;
     height:100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: -1.7px;
 }
-
 
 .profile_card{
     background-color:#ffffff;
