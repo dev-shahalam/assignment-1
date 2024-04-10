@@ -31,6 +31,6 @@ Balance : ${this.getBalance()}
 }
 const account = new bankAccount();
 account.diposite(1000);
-account.widthrow(400);
+account.widthrow(1000);
 // console.log(account.getBalance());
 console.log(account.displayAccountInfo());
